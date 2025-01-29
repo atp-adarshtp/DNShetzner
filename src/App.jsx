@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold">Hetzner DNS Dashboard</h1>
+      <h1 className="text-2xl font-bold" style={{ textAlign: 'center' }}>Hetzner DNS Dashboard</h1>
       <Dashboard />
     </div>
   );
